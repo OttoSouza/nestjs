@@ -6,4 +6,5 @@ export class UserDTO {
   @IsString({ message: 'Campo so recebe string' })
   @IsNotEmpty()
   password: string;
+  
 }
